@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="36dp">
+
+    <Button
+        android:id="@+id/btnAdicionarGasto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#6ED060"
+        android:text="Adicionar Gasto" />
+
+    <Button
+        android:id="@+id/btnResumoCategoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#6ED060"
+        android:text="Resumo por Categoria" />
+
+    <ListView
+        android:id="@+id/listViewGastos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
